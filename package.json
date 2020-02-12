@@ -1,0 +1,21 @@
+{
+  "name": "reoz_game_server",
+  "version": "0.0.1",
+  "description": "Serveur du jeu Reoz",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jessy Bellanger",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.8",
+    "cors": "^2.8.5",
+    "express": "latest",
+    "faker": "^4.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "socket.io": "^2.3.0",
+    "uuid": "^3.4.0"
+  }
+}
